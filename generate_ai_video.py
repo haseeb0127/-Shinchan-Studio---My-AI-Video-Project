@@ -28,7 +28,6 @@ def create_subtitle_image(text, duration, lang):
     draw = ImageDraw.Draw(img)
     draw.rectangle([100, 50, 1180, 150], fill=(0, 0, 0, 160))
     
-    # Mapped to your 'fonts' folder on GitHub
     if lang == "Hindi": font_file = "fonts/Hind-Regular.ttf"
     elif lang == "Telugu": font_file = "fonts/Ramabhadra-Regular.ttf"
     else: font_file = "fonts/Hind-Regular.ttf"
@@ -61,24 +60,22 @@ if st.button("🚀 Generate AI Video"):
                     voice = CompositeAudioClip([voice, bg_music])
 
             st.write("🖼️ Selecting Random Background...")
-            # --- FIXED: Direct folder name from your GitHub ---
             bg_folder = "backgrounds" 
             all_bgs = [f for f in os.listdir(bg_folder) if f.lower().endswith(('.png', '.jpg'))]
             bg_path = os.path.join(bg_folder, random.choice(all_bgs))
             bg = ImageClip(bg_path).with_duration(voice.duration).resized(width=1280)
 
             st.write("🚶 Animating Character...")
-            prefix = "character" if char_choice == "Shinchan" else "character2"
-            
-            # Smart logic to handle the ' (2)' in filenames automatically
-            potential_closed = [f"{prefix}_closed.png", f"{prefix}_closed (2).png"]
-            potential_open = [f"{prefix}_open.png", f"{prefix}_open (2).png"]
-            
-            closed_path = next((f for f in potential_closed if os.path.exists(f)), potential_closed[0])
-            open_path = next((f for f in potential_open if os.path.exists(f)), potential_open[0])
+            # --- UPDATED PATHS TO MATCH YOUR GITHUB FILENAMES ---
+            if char_choice == "Shinchan":
+                c_file = "character_closed (2).png"
+                o_file = "character_open (2).png"
+            else:
+                c_file = "character2_closed (2).png"
+                o_file = "character2_open (2).png"
 
-            c = ImageClip(closed_path).with_duration(0.15).resized(width=400)
-            o = ImageClip(open_path).with_duration(0.15).resized(width=400)
+            c = ImageClip(c_file).with_duration(0.15).resized(width=400)
+            o = ImageClip(o_file).with_duration(0.15).resized(width=400)
                 
             actor = concatenate_videoclips([c, o] * int(voice.duration/0.3 + 1)).with_duration(voice.duration).with_position((440, 320))
 
@@ -91,7 +88,6 @@ if st.button("🚀 Generate AI Video"):
             
             status.update(label="✅ Video Ready!", state="complete", expanded=False)
 
-        # 4. Display Video on Website
         st.video("studio_result.mp4")
         with open("studio_result.mp4", "rb") as file:
             st.download_button("📥 Download Video", data=file, file_name="ai_cartoon.mp4", mime="video/mp4")
