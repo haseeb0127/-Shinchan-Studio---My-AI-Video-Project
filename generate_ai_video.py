@@ -73,7 +73,6 @@ if st.button("🚀 Generate AI Video"):
             bg = ImageClip(bg_path).with_duration(voice.duration).resized(width=1280)
 
             st.write("🚶 Animating Character...")
-            # --- AUTO-SEARCH LOGIC FOR FILENAMES ---
             if char_choice == "Shinchan":
                 c_name = find_file(["character_closed (2).png", "character_closed(2).png", "character_closed.png"])
                 o_name = find_file(["character_open (2).png", "character_open(2).png", "character_open.png"])
@@ -100,4 +99,7 @@ if st.button("🚀 Generate AI Video"):
 
         st.video("studio_result.mp4")
         with open("studio_result.mp4", "rb") as file:
-            st.download_button("📥 Download Video", data=file, file
+            st.download_button("📥 Download Video", data=file, file_name="ai_cartoon.mp4", mime="video/mp4")
+
+    except Exception as e:
+        st.error(f"Something went wrong: {e}")
