@@ -4,50 +4,55 @@ from moviepy.audio.AudioClip import CompositeAudioClip
 from gtts import gTTS
 import os, random, glob
 
-st.set_page_config(page_title="Asif's Bollywood AI Studio", page_icon="🎬")
+st.set_page_config(page_title="Asif's AI Studio")
 st.title("🎬 Asif's Shinchan AI Studio")
 
 with st.sidebar:
     st.header("Settings")
-    char_choice = st.selectbox("Character", ["Shinchan", "Doraemon"])
-    lang_choice = st.selectbox("Language", ["English", "Hindi", "Telugu", "Hinglish"])
-    music_choice = st.selectbox("Music", ["No Music", "Bollywood Drama", "Hollywood Epic"])
+    char = st.selectbox("Character", ["Shinchan", "Doraemon"])
+    lang = st.selectbox("Language", ["English", "Hindi", "Telugu", "Hinglish"])
+    mus = st.selectbox("Music", ["No Music", "Bollywood Drama", "Hollywood Epic"])
 
-script_text = st.text_area("Script:", "Hello dosto!")
+script = st.text_area("Script:", "Hello dosto!")
 
-def find_file(pattern):
-    files = glob.glob(f"**/{pattern}", recursive=True)
-    return files[0] if files else None
+def find(pattern):
+    f = glob.glob(f"**/{pattern}", recursive=True)
+    return f[0] if f else None
 
 if st.button("🚀 Generate AI Video"):
     try:
-        with st.status("🎬 Processing...", expanded=True) as status:
-            lang_map = {"English": "en", "Hindi": "hi", "Telugu": "te", "Hinglish": "hi"}
+        with st.status("🎬 Processing...") as status:
+            l_map = {"English":"en","Hindi":"hi","Telugu":"te","Hinglish":"hi"}
+            tts = gTTS(text=script, lang=l_map[lang])
+            tts.save("t.mp3")
+            v = AudioFileClip("t.mp3")
             
-            # 1. Voice & Music
-            tts = gTTS(text=script_text, lang=lang_map[lang_choice])
-            tts.save("temp.mp3")
-            voice = AudioFileClip("temp.mp3")
-            if music_choice != "No Music":
-                m_file = find_file(f"{music_choice.lower().replace(' ', '_')}.mp3")
-                if m_file:
-                    bg_m = AudioFileClip(m_file).with_duration(voice.duration).with_volume_scaled(0.15)
-                    voice = CompositeAudioClip([voice, bg_m])
+            if mus != "No Music":
+                mf = find(f"{mus.lower().replace(' ','_')}.mp3")
+                if mf:
+                    bm = AudioFileClip(mf).with_duration(v.duration).with_volume_scaled(0.15)
+                    v = CompositeAudioClip([v, bm])
 
-            # 2. Background
-            bg_files = glob.glob("**/backgrounds/*.*", recursive=True) + glob.glob("*.png") + glob.glob("*.jpg")
-            bg_path = random.choice(bg_files)
-            bg = ImageClip(bg_path).with_duration(voice.duration).resized(width=1280)
+            bgs = glob.glob("**/backgrounds/*.*", recursive=True) + glob.glob("*.png") + glob.glob("*.jpg")
+            bp = random.choice(bgs)
+            bg = ImageClip(bp).with_duration(v.duration).resized(width=1280)
 
-            # 3. Character Animation
-            pre = "character" if char_choice == "Shinchan" else "character2"
-            c_path, o_path = find_file(f"{pre}_closed*.png"), find_file(f"{pre}_open*.png")
-            if not c_path or not o_path:
-                st.error("Missing images on GitHub!")
+            pre = "character" if char == "Shinchan" else "character2"
+            cp, op = find(f"{pre}_closed*.png"), find(f"{pre}_open*.png")
+            
+            if not cp or not op:
+                st.error("Images missing on GitHub!")
                 st.stop()
 
-            c, o = ImageClip(c_path).with_duration(0.15).resized(width=400), ImageClip(o_path).with_duration(0.15).resized(width=400)
-            actor = concatenate_videoclips([c, o] * int(voice.duration/0.3 + 1)).with_duration(voice.duration).with_position((440, 320))
+            c, o = ImageClip(cp).with_duration(0.15).resized(width=400), ImageClip(op).with_duration(0.15).resized(width=400)
+            act = concatenate_videoclips([c, o] * int(v.duration/0.3 + 1)).with_duration(v.duration).with_position((440, 320))
 
-            # 4. Render
-            final = CompositeVideoClip([bg, actor], size=(1280, 72
+            fin = CompositeVideoClip([bg, act], size=(1280, 720)).with_audio(v)
+            fin.write_videofile("out.mp4", fps=24, preset="ultrafast", logger=None)
+            status.update(label="✅ Ready!", state="complete")
+
+        st.video("out.mp4")
+        with open("out.mp4", "rb") as f:
+            st.download_button("📥 Download", data=f, file_name="video.mp4")
+    except Exception as e:
+        st.error(f"Error: {e}")
