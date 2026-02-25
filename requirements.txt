@@ -2,3 +2,4 @@ streamlit
 moviepy
 gTTS
 Pillow
+google-generativeai
