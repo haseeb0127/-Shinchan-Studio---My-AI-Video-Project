@@ -1,5 +1,5 @@
 import streamlit as st
-from moviepy import ImageClip, AudioFileClip, CompositeVideoClip, concatenate_videoclips
+from moviepy import ImageClip, AudioFileClip, CompositeVideoClip, concatenate_videoclips, ColorClip
 from moviepy.audio.AudioClip import CompositeAudioClip
 from gtts import gTTS
 import os, random, glob
@@ -33,9 +33,13 @@ if st.button("🚀 Generate AI Video"):
                     bm = AudioFileClip(mf).with_duration(v.duration).with_volume_scaled(0.15)
                     v = CompositeAudioClip([v, bm])
 
-            bgs = glob.glob("**/backgrounds/*.*", recursive=True) + glob.glob("*.png") + glob.glob("*.jpg")
-            bp = random.choice(bgs)
-            bg = ImageClip(bp).with_duration(v.duration).resized(width=1280)
+            # --- FIXED BACKGROUND LOGIC ---
+            bgs = glob.glob("**/backgrounds/*.*", recursive=True)
+            if bgs:
+                bg = ImageClip(random.choice(bgs)).with_duration(v.duration).resized(width=1280)
+            else:
+                # Fallback to a solid color if folder is empty
+                bg = ColorClip(size=(1280, 720), color=(135, 206, 235)).with_duration(v.duration)
 
             pre = "character" if char == "Shinchan" else "character2"
             cp, op = find(f"{pre}_closed*.png"), find(f"{pre}_open*.png")
@@ -44,8 +48,10 @@ if st.button("🚀 Generate AI Video"):
                 st.error("Images missing on GitHub!")
                 st.stop()
 
-            c, o = ImageClip(cp).with_duration(0.15).resized(width=400), ImageClip(op).with_duration(0.15).resized(width=400)
-            act = concatenate_videoclips([c, o] * int(v.duration/0.3 + 1)).with_duration(v.duration).with_position((440, 320))
+            # --- FIXED CHARACTER SCALING ---
+            c = ImageClip(cp).with_duration(0.15).resized(height=500)
+            o = ImageClip(op).with_duration(0.15).resized(height=500)
+            act = concatenate_videoclips([c, o] * int(v.duration/0.3 + 1)).with_duration(v.duration).with_position(("center", "bottom"))
 
             fin = CompositeVideoClip([bg, act], size=(1280, 720)).with_audio(v)
             fin.write_videofile("out.mp4", fps=24, preset="ultrafast", logger=None)
