@@ -1,3 +1,16 @@
+import streamlit as st  # <--- THIS MUST BE LINE 1
+import google.generativeai as genai
+import json
+import os
+import random
+import glob
+import time
+from moviepy.editor import ImageClip, AudioFileClip, CompositeVideoClip, concatenate_videoclips, ColorClip, VideoFileClip
+import moviepy.video.fx.all as vfx
+from gtts import gTTS
+
+# NOW you can use st.secrets
+genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 import google.generativeai as genai
 import json
 
@@ -68,3 +81,4 @@ if st.button("🚀 Generate Animated Video"):
         
     except Exception as e:
         st.error(f"Founder, we have a glitch: {e}")
+
