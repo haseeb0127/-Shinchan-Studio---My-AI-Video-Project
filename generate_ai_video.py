@@ -33,12 +33,11 @@ if st.button("🚀 Generate AI Video"):
                     bm = AudioFileClip(mf).with_duration(v.duration).with_volume_scaled(0.15)
                     v = CompositeAudioClip([v, bm])
 
-            # --- FIXED BACKGROUND LOGIC ---
+            # --- BACKGROUND LOGIC ---
             bgs = glob.glob("**/backgrounds/*.*", recursive=True)
             if bgs:
                 bg = ImageClip(random.choice(bgs)).with_duration(v.duration).resized(width=1280)
             else:
-                # Fallback to a solid color if folder is empty
                 bg = ColorClip(size=(1280, 720), color=(135, 206, 235)).with_duration(v.duration)
 
             pre = "character" if char == "Shinchan" else "character2"
@@ -48,10 +47,19 @@ if st.button("🚀 Generate AI Video"):
                 st.error("Images missing on GitHub!")
                 st.stop()
 
-            # --- FIXED CHARACTER SCALING ---
-            c = ImageClip(cp).with_duration(0.15).resized(height=500)
-            o = ImageClip(op).with_duration(0.15).resized(height=500)
-            act = concatenate_videoclips([c, o] * int(v.duration/0.3 + 1)).with_duration(v.duration).with_position(("center", "bottom"))
+            # --- TRANSPARENCY & POSITION FIX ---
+            def prep_char(path):
+                # We use .memoize() or .resized to ensure it fits the frame
+                img = ImageClip(path).with_duration(0.15).resized(height=450)
+                return img
+
+            c, o = prep_char(cp), prep_char(op)
+            
+            # Animate the talking mouth
+            act = concatenate_videoclips([c, o] * int(v.duration/0.3 + 1)).with_duration(v.duration)
+            
+            # Position character at the bottom center
+            act = act.with_position(("center", "bottom"))
 
             fin = CompositeVideoClip([bg, act], size=(1280, 720)).with_audio(v)
             fin.write_videofile("out.mp4", fps=24, preset="ultrafast", logger=None)
