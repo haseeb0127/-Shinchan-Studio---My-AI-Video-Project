@@ -1,5 +1,8 @@
 streamlit
-moviepy
+moviepy==1.0.3
 gTTS
 Pillow
 google-generativeai
+decorator
+imageio
+imageio-ffmpeg
