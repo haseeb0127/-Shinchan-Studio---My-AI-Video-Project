@@ -41,6 +41,13 @@ def create_subtitle_image(text, duration, lang):
     img.save("temp_sub.png")
     return ImageClip("temp_sub.png").with_duration(duration).with_position(("center", "bottom"))
 
+# Helper function to find files safely
+def find_file(possible_names):
+    for name in possible_names:
+        if os.path.exists(name):
+            return name
+    return None
+
 # 3. Generate Button
 if st.button("🚀 Generate AI Video"):
     try:
@@ -66,16 +73,19 @@ if st.button("🚀 Generate AI Video"):
             bg = ImageClip(bg_path).with_duration(voice.duration).resized(width=1280)
 
             st.write("🚶 Animating Character...")
-            # --- UPDATED PATHS TO MATCH YOUR GITHUB FILENAMES ---
+            # --- AUTO-SEARCH LOGIC FOR FILENAMES ---
             if char_choice == "Shinchan":
-                c_file = "character_closed (2).png"
-                o_file = "character_open (2).png"
+                c_name = find_file(["character_closed (2).png", "character_closed(2).png", "character_closed.png"])
+                o_name = find_file(["character_open (2).png", "character_open(2).png", "character_open.png"])
             else:
-                c_file = "character2_closed (2).png"
-                o_file = "character2_open (2).png"
+                c_name = find_file(["character2_closed (2).png", "character2_closed(2).png", "character2_closed.png"])
+                o_name = find_file(["character2_open (2).png", "character2_open(2).png", "character2_open.png"])
 
-            c = ImageClip(c_file).with_duration(0.15).resized(width=400)
-            o = ImageClip(o_file).with_duration(0.15).resized(width=400)
+            if not c_name or not o_name:
+                raise FileNotFoundError(f"Could not find character images for {char_choice} on GitHub.")
+
+            c = ImageClip(c_name).with_duration(0.15).resized(width=400)
+            o = ImageClip(o_name).with_duration(0.15).resized(width=400)
                 
             actor = concatenate_videoclips([c, o] * int(voice.duration/0.3 + 1)).with_duration(voice.duration).with_position((440, 320))
 
@@ -90,7 +100,4 @@ if st.button("🚀 Generate AI Video"):
 
         st.video("studio_result.mp4")
         with open("studio_result.mp4", "rb") as file:
-            st.download_button("📥 Download Video", data=file, file_name="ai_cartoon.mp4", mime="video/mp4")
-
-    except Exception as e:
-        st.error(f"Something went wrong: {e}")
+            st.download_button("📥 Download Video", data=file, file
