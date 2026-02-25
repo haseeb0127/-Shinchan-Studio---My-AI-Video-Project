@@ -1,0 +1,1073 @@
+1 Cognitive Psychology History,
+Methods, and Paradigms
+Chapter Outline
+Setting the Stage
+Influences on the Study of Cognition
+Structuralism
+Functionalism
+Behaviorism
+Gestalt Psychology
+The Study of Individual Differences
+The “Cognitive Revolution” and the Birth of Cognitive Science
+General Points
+Research Methods in Cognitive Psychology
+Experiments and Quasi-Experiments
+Naturalistic Observation
+Controlled Observation and Clinical Interviews
+Introspection
+Investigations of Neural Underpinnings
+General Points
+Paradigms of Cognitive Psychology
+The Information-Processing Approach
+The Connectionist Approach
+The Evolutionary Approach
+The Ecological Approach and Embodied Cognition
+Cognitive Neuroscience
+General Points
+Setting the Stage
+This book is about cognitive psychology—that branch of psychology concerned with how
+people acquire, store, transform, use, and communicate information (Neisser, 1967). Put
+differently, cognitive psychology deals with our mental life: what goes on inside our
+heads when we perceive, attend, remember, think, categorize, reason, decide, and so
+forth.
+To get a better feel for the domain of cognitive psychology, let’s consider an example of
+cognitive activity:
+You’re walking along a dark, unfamiliar city street. It’s raining and foggy, and you
+are cold and a bit apprehensive. As you walk past a small alley, you catch some
+movement out of the corner of your eye. You turn to look down the alley and start to
+make out a shape coming toward you. As the shape draws nearer, you are able to
+make out more and more features, and you suddenly realize that it’s . . .
+What cognitive processes are going on in this admittedly melodramatic example? In
+general, this example illustrates the initial acquisition and processing of information. In
+particular, the cognitive processes depicted include attention, mentally focusing on some
+stimulus (the mysterious shape); perception, interpreting sensory information to yield
+meaningful information; and pattern recognition, classifying a stimulus into a known
+category. In recognizing the shape as something familiar, you no doubt called on
+memory, the storage facilities and retrieval processes of cognition. All this processing
+occurred rapidly, probably within a few seconds or less. Most of the cognitive processing
+in this example appears so effortless and automatic that we usually take it for granted.
+Here’s another example:
+You’re in a crowded public place such as a shopping mall during the holiday season.
+Throngs of people push past you, and you’re hot and tired. You head for a nearby
+bench, aiming to combine some rest with some people watching. As you make your
+way, a young woman about your age jostles up against you. You both offer polite
+apologies (“Oh, excuse me!” “Sorry!”), glancing at each other as you do. She
+immediately exclaims, “Oh, it’s you! How are you? I never thought I’d run into
+anyone I know here—can you believe it?” You immediately paste a friendly but
+vague smile on your face to cover your frantic mental search. Who is this woman?
+She looks familiar, but why? Is she a former classmate? Did you and she attend
+camp together? Is she saying anything that you can use as a clue to place her?
+This example illustrates your use of memory processes, including recognition (you see
+the woman as familiar) and recall (you try to determine where you know her from). Other
+cognitive processes are involved here too, although they play a lesser role. For instance,
+you perceive the entity talking to you as a person, specifically a woman, more specifically
+a vaguely familiar woman. You pay attention to her. You may be using various strategies
+or techniques of reasoning and problem solving to try to figure out who she is. Your
+success or failure at this task may also depend on your mental organization of the
+knowledge you have accumulated in your lifetime—your knowledge representation. To
+communicate with her, you use language as well as nonverbal cues or signals.
+Eventually, you’ll need to use decision making to determine how to deal with the
+situation: Will you admit your forgetfulness, or will you try to cover it up?
+Photo 1.1: An ordinary activity, such as reading a map, involves a great deal of cognitive
+processing.
+Photo by Meaguell Gaines
+As these two examples demonstrate, our everyday lives involve a great deal of cognition.
+Furthermore, this everyday cognition is complex, often involving several cognitive
+processes. We tend to remain unaware of this complexity, however, because much of our
+cognitive processing occurs so often, so rapidly, and with so little effort that we might not
+even know it is taking place.
+In both of the preceding examples, several cognitive processes were occurring either
+simultaneously or very closely in time. In fact, it is nearly impossible to specify, in either
+of these examples, exactly how many cognitive processes occurred or in what sequence.
+This uncertainty typifies everyday situations: So much is going on so quickly that we
+can’t even be sure of what information is being received or used. How, then, can
+cognition be studied with any precision?
+This kind of problem is one all scientists face: how to study a naturally occurring
+phenomenon with sufficient experimental rigor to draw firm conclusions. The answer, for
+many, is to try to isolate the phenomenon and bring it (or some stripped-down version of
+it) into the laboratory. With this approach, the challenge is to decide what is essential and
+what is inessential about the phenomenon under study.
+For example, in studying how memory works, psychologists have often used experiments
+in which people are presented with lists of words or nonsense syllables. The
+experimenters then control or systematically vary variables such as the complexity,
+length, frequency, meaningfulness, relatedness, and rate of presentation of items on the
+list along with the state of alertness, expertise, practice, and interest of the research
+participants. The experimenters assume that factors that increase or decrease performance
+in the laboratory will also increase or decrease performance under less controlled
+conditions. Furthermore, the researchers assume that although in everyday life people do
+not encounter material to be remembered in this manner, the processes of memory work
+in essentially the same ways in laboratory experiments as in everyday life. So if
+increasing the number of items to be remembered decreases memory performance in a
+laboratory, then we can expect that needing to remember more information is more
+difficult than remembering less in an everyday situation.
+The key challenge for all scientists, however, is to make sure the laboratory tasks they
+develop preserve the essential workings of the processes under study. The most rigorously
+controlled experiment is of, at best, limited value if the phenomenon being studied does
+not occur or occurs in significantly different ways outside the laboratory. Unfortunately,
+there is no simple or guaranteed way to ensure that laboratory tasks model everyday
+tasks. Therefore, students and other ��consumers” of science must take a critical stance
+when considering how experimental situations apply to everyday ones. Throughout this
+book, we will look at how laboratory models do or don’t accurately describe, explain, and
+predict cognitive processing in real life. We will also consider how situational and
+personal factors, such as people’s level of development, personality variables, degree of
+expertise, gender, and cultural background, affect cognitive processing.
+Before we discuss specific cognitive processes, however, an overview of the field of
+cognitive psychology will provide a useful framework within which to consider specific
+topics, experiments, and findings in the field. We will first examine the historical roots of
+cognitive psychology to see how the field has developed. Next, we will look at traditional
+and common research methods used in cognitive psychology. Finally, we will consider
+four paradigms, or schools of thought, that represent the current streams of thought in the
+field.
+Influences on the Study of Cognition
+A complete treatise on how modern cognitive psychology has evolved over
+the course of human history could fill several volumes and would obviously
+be beyond our scope. Worth noting, however, is that several ideas about
+certain mental abilities date back to at least the Greek philosophers Aristotle
+and Plato (Murray, 1988). Both of these philosophers wrote extensively on
+the nature of memory. Plato, for instance, likened storing something in
+memory to writing on a wax tablet. In other writings, he compared the mind
+to an aviary in which many birds are flying and compared memory retrieval
+to trying to catch a specific bird: Sometimes you can, but other times you
+can grab only a nearby bird. Similarly, when I try to recall the name of the
+girl who sat behind me in third grade, I have trouble latching on to exactly
+the right one (was it Joan? Joanne? Anne?), but my choices are probably
+pretty close.
+Other historians of psychology trace the field’s roots to the philosophers of
+the 17th to 19th centuries, including John Locke, David Hume, John Stuart
+Mill, René Descartes, George Berkeley, and Immanuel Kant. These
+philosophers also debated the nature of mind and knowledge, with Locke,
+Hume, Berkeley, and Mill following Aristotle and a more empiricist
+position and Descartes and Kant aligning with Plato and a nativist position.
+Briefly, empiricism rests on the tenet that knowledge comes from an
+individual’s own experience—that is, from the empirical information that
+people collect from their senses and experiences. Empiricists recognize
+individual differences in genetics but emphasize human nature’s malleable,
+or changeable, aspects. Empiricists believe people are the way they are, and
+have the capabilities they have, largely because of previous learning. One
+mechanism by which such learning is thought to take place is through the
+mental association of two ideas. Locke (1690/1964) argued that two
+distinct ideas or experiences, having nothing to do with each other, could
+become joined in the mind simply because they happened to occur or be
+presented to the individual at the same time. Empiricists accordingly
+believe the environment plays a powerful role in determining one’s
+intellectual (and other) abilities.
+Nativism, by contrast, emphasizes the role of constitutional factors—of
+native ability—over the role of learning in the acquisition of abilities and
+tendencies. Nativists attribute differences in individuals’ abilities less to
+differences in learning than to differences in original, biologically endowed
+capacities and abilities. Nativism is an important idea in cognitive
+psychology, as we will see. Nativists often suggest that some cognitive
+functions come built in as part of our legacy as humans. “Hard-wired”
+functions such as working memory, for example, are attributed to innate
+structures of the human mind that are present in at least rudimentary form at
+birth and are not learned, formed, or created as a result of experience.
+Interestingly, only during the last 120 years have central cognitive issues,
+such as the nature of the mind and the nature of information in the mind,
+been seen as amenable to scientific psychological investigation. Indeed,
+until the 1870s, no one really thought to ask whether actual data could help
+to resolve any of these questions. When people began doing so,
+experimental psychology was born. However, the nativist–empiricist debate
+is still a controversial one in the 21st century (Pinker, 2002). We will look
+next at the different schools of experimental psychology that laid the
+foundations for cognitive psychology today.
+Structuralism
+Many students are surprised to find out that psychology as a formal
+discipline has been around for little more than a century. Historians often
+date the “founding” of the field of psychology back to 1879, when Wilhelm
+Wundt converted a laboratory into the first institute for research in
+experimental psychology (Fancher, 1979). Wundt wanted to establish a
+“science of mind” to discover the laws and principles that explained our
+immediate conscious experience. In particular, Wundt wanted to identify the
+simplest essential units of the mind. In essence, he wanted to create a table
+of “mental elements,” much like a chemist’s periodic chart. Once the set of
+elements was identified, Wundt believed, psychologists could determine
+how these units combine to produce complex mental phenomena. Wundt
+(1904) foresaw an entire field devoted to the study of how systematically
+varying stimuli would affect or produce different mental states; he
+described this field in a volume titled Principles of Physiological
+Psychology.
+Wundt and his students carried out hundreds of studies, many involving a
+technique of investigation called introspection. Although this term today
+connotes “soul searching,” Wundt’s technique was much more focused. It
+consisted of presenting highly trained observers (usually graduate students)
+with various stimuli and asking them to describe their conscious
+experiences. Wundt assumed that the raw materials of consciousness were
+sensory and thus “below” the level of meaning. In particular, Wundt thought
+any conscious thought or idea resulted from a combination of sensations
+that could be defined in terms of exactly four properties: mode (e.g., visual,
+auditory, tactile, olfactory), quality (e.g., color, shape, texture), intensity,
+and duration.
+Wundt’s goal was to “cut through the learned categories and concepts that
+define our everyday experience of the world” (Fancher, 1979, p. 140).
+Wundt believed strongly that with proper training people could detect and
+report the workings of their own minds. A student of Wundt, Edward B.
+Titchener, applied the term structuralism to his own endeavors as well as
+to Wundt’s (Hillner, 1984). The term was meant to convey Wundt’s focus
+on what the elemental components of the mind are rather than on the
+question of why the mind works as it does.
+The method of introspection, unfortunately, proved to be problematic, as we
+will see shortly. Nonetheless, modern cognitive psychologists owe Wundt
+more than a historical debt. A pioneer in the study of many cognitive
+phenomena, he was the first to approach cognitive questions scientifically
+and the first to design experiments to test cognitive theories.
+Functionalism
+While Wundt was working in Leipzig, Germany, an American named
+William James was working to establish the new discipline of psychology
+in the United States. In many ways, Wundt and James were opposites. A
+prolific researcher who personally carried out or supervised hundreds of
+rigorous experiments, Wundt was not known for his interpersonal style.
+James (the brother of the writer Henry James), in contrast, carried out little
+original research but wrote eloquently about psychological findings and
+their relevance to everyday life (Fancher, 1979). His textbook The
+Principles of Psychology (James, 1890/1983) is still highly regarded and
+widely cited today.
+James regarded psychology’s mission to be the explanation of our
+experience. Like Wundt, James was interested in conscious experience.
+Unlike Wundt, however, James was not interested in the elementary units of
+consciousness. Instead, he asked why the mind works the way it does. He
+assumed that the way the mind works has a great deal to do with its function
+—the purposes of its various operations. Hence, the term functionalism
+was applied to his approach.
+James’s writings, which introduced psychological questions to American
+academics, still offer food for thought to students and teachers of
+psychology, perhaps because they so directly address everyday life.
+Consider one of the best-known chapters in his textbook on “habit.” James
+(1890/1983) saw habit as the “flywheel of society” (Vol. 1, p. 125), a
+mechanism basic to keeping our behavior within bounds. He saw habits as
+inevitable and powerful and drew from this a practical conclusion:
+Every smallest stroke of virtue or of vice leaves its ever so little scar.
+The drunken Rip Van Winkle, in Jefferson’s play, excuses himself for
+every fresh dereliction by saying, “I won’t count this time!” Well! He
+may not count it, and a kind Heaven may not count it; but it is being
+counted none the less. Down among his nerve-cells and fibres the
+molecules are counting it, registering and storing it up to be used against
+him when the next temptation comes. (p. 131)
+James’s point, of course, is that people should take great care to avoid bad
+habits and establish good ones. He offered advice about how to do so,
+urging people to never allow an exception when trying to establish a good
+habit, to seize opportunities to act on resolutions, and to engage in a “little
+gratuitous effort” every day to keep the “faculty of effort” alive (James,
+1890/1983, Vol. 1, p. 130). Other American psychologists shared James’s
+assumptions and approaches. Fellow functionalists such as John Dewey and
+Edward L. Thorndike, for example, shared James’s conviction that the most
+important thing the mind did was to let the individual adapt to her or his
+environment.
+Functionalists drew heavily on Darwinian evolutionary theory and tried to
+extend biological conceptions of adaptation to psychological phenomena
+(Hillner, 1984). Structuralists and functionalists differed in their methods as
+well as their focus. The structuralists were convinced that the proper setting
+for experimental psychology was the laboratory, where experimental stimuli
+could be stripped of their everyday meanings to determine the true nature of
+mind. The functionalists disagreed sharply with this approach, attempting
+instead to study mental phenomena in real-life situations. Their basic belief
+was that psychologists should study whole organisms doing whole real-life
+tasks.
+Behaviorism
+You probably learned the terms classical conditioning and instrumental
+conditioning in your introductory psychology class. The Russian
+psychologist Ivan Pavlov used the first term, and psychologists such as
+Edward Thorndike used the second term, to explain psychological
+phenomena strictly in terms of observable stimuli and responses.
+In the United States, a school of psychology known as behaviorism took
+root during the 1930s and dominated academic psychology until well into
+the 1960s. Many regard it as a branch of functionalism (Amsel, 1989). One
+of the general doctrines of behaviorism is that references to unobservable
+subjective mental states (such as consciousness), as well as to unobservable
+subjective processes (such as expecting, believing, understanding,
+remembering, hoping for, deciding, and perceiving), are to be banished
+from psychology proper, which behaviorists took to be the scientific study
+of behavior.
+Behaviorists rejected such techniques of study as introspection, which they
+found in principle to be untestable. In an article published in 1913, John
+Watson most directly described his view of what psychology is and isn’t:
+Psychology as the behaviorist views it is a purely objective natural
+science. Its theoretical goal is the prediction and control of behavior.
+Introspection forms no essential part of its methods, nor is the scientific
+value of its data dependent upon the readiness with which they lend
+themselves to interpretation in terms of consciousness. The behaviorist,
+in his efforts to get a unitary scheme of animal response, recognizes no
+dividing line between man and brute. The behavior of man, with all of
+its refinement and complexity, forms only a part of the behaviorist’s
+total scheme of investigation. (p. 158)
+Why did behaviorists so disdain the technique of introspection? Their
+disdain was mainly because of its obviously subjective nature and its
+inability to resolve disagreements about theory. Suppose two observers are
+presented with the same stimulus, and one reports an experience of
+“greenness” and the other an experience of “green-yellowness.” Which one
+is correct? Is one misrepresenting or misinterpreting his or her experience?
+If no physiological cause (e.g., color blindness) explains the different
+reports, then the scientist is left with an unresolvable dispute. Titchener
+restricted his research participants to graduate students trained to introspect
+“properly” (advising those who couldn’t learn to do this to find another
+career). This, however, created more problems than it solved. The reasoning
+was circular. How do we know that a particular sensation is a true building
+block of cognition? Because trained observers report it to be so. How do we
+know the observers are trained? Because they consistently report that
+certain sensations and not others are the true elements of consciousness.
+Watson, in fact, regarded all “mental” phenomena as reducible to behavioral
+and physiological responses. Such things as “images” and “thoughts,” he
+believed, resulted from low-level activity of glands or small muscles. In his
+first textbook, Watson cited evidence showing that when people report they
+are “thinking,” muscles in the tongue and larynx are actually moving
+slightly. Thought, for Watson, simply amounted to perception of these
+muscle movements (Fancher, 1979).
+Watson’s contribution to cognitive psychology—banishing all “mental
+language” from use—was largely negative insofar as he believed the
+scientific study of mental phenomena was simply not possible. Watson and
+his followers did, however, encourage psychologists to think in terms of
+measures and research methods that moved beyond subjective
+introspection, thereby challenging later psychologists to develop more
+rigorous and more testable hypotheses and theories as well as stricter
+research protocols.
+B. F. Skinner (1963/1984), psychology’s best-known behaviorist, took a
+different tack with regard to mental events and the issue of mental
+representations. Skinner argued that such “mentalistic” entities as images,
+sensations, and thoughts should not be excluded simply because they are
+difficult to study. Skinner believed in the existence of images, thoughts, and
+the like and agreed they were proper objects of study, but he objected to
+treating mental events and activities as fundamentally different from
+behavioral events and activities. In particular, he objected to hypothesizing
+the existence of mental representations (internal depictions of information),
+which he took to be internal copies of external stimuli. Skinner believed
+images and thoughts were likely to be no more or less than verbal labels for
+bodily processes. But even if mental events were real and separate entities,
+Skinner believed, they were triggered by external environmental stimuli and
+gave rise to behaviors. Therefore, he held, a simple functional analysis of
+the relationship between the stimuli and behaviors would avoid the wellknown problems of studying mental events (Hergenhahn, 1986).
+Other behaviorists were more accepting of the idea of mental
+representations. Edward Tolman, for example, believed that even rats have
+goals and expectations. As he explained it, a rat learning to run a maze must
+have the goal of attaining food and must acquire an internal representation
+—some cognitive map or other means of depicting information “in the
+head”—to locate the food at the maze’s end. Tolman’s work centered on
+demonstrating that animals had both expectations and internal
+representations that guided their behavior.
+Gestalt Psychology
+The school of Gestalt psychology began in 1911 in Frankfurt, Germany, in
+a meeting of three psychologists: Max Wertheimer, Kurt Koffka, and
+Wolfgang Köhler (Murray, 1988). As the name Gestalt (a German word that
+loosely translates to “configuration” or “shape”) suggests, these
+psychologists’ central assumption was that psychological phenomena could
+not be reduced to simple elements but rather needed to be analyzed and
+studied in their entirety. Gestalt psychologists, who studied mainly
+perception and problem solving, believed an observer did not construct a
+coherent perception from simple, elementary sensory aspects of an
+experience but instead apprehended the total structure of an experience as a
+whole.
+As a concrete example, consider Figure 1.1. Notice that (A), (B), and (C)
+contain the same elements—namely, eight equal line segments. However,
+most people experience the three arrays quite differently, seeing (A) as four
+pairs of line segments, (B) as eight line segments haphazardly arranged, and
+(C) as a circle or, more precisely, an octagon made up of eight line
+segments. The arrangement of lines—that is, the relationships among the
+elements as a whole—plays an important role in determining our
+experience.
+The Gestalt psychologists thus rejected structuralism, functionalism, and
+behaviorism as offering incomplete accounts of psychological and, in
+particular, cognitive experiences. They chose to study people’s subjective
+experience of stimuli and to focus on how people use or impose structure
+and order on their experiences. They believed that the mind imposes its own
+structure and organization on stimuli and, in particular, organizes
+perceptions into wholes rather than discrete parts. These wholes tend to
+simplify stimuli. Thus, when we hear a melody, we experience not a
+collection of individual sounds but rather larger and more organized units—
+melodic lines.
+Figure 1.1: Examples of Gestalt figures. Although (A), (B), and (C) all
+contain eight equal lines, most people experience them differently, seeing
+(A) as four pairs of lines, (B) as eight unrelated lines, and (C) as a circle
+made up of eight line segments.
+The Study of Individual Differences
+Yet another strand of the history of psychology is important to mention
+here, even though no particular “school” is associated with it: the
+investigations into individual differences in human cognitive abilities by Sir
+Francis Galton and his followers. Galton, a half-cousin of Charles Darwin,
+inherited a substantial sum of money during his early 20s that afforded him
+the time and resources to pursue his interests. A child prodigy himself (he
+read and wrote by the age of 2½ years), Galton trained in medicine and
+mathematics at Cambridge University in England. Like many of his fellow
+students (and many of today’s college students), Galton felt a great deal of
+academic pressure and competitiveness and “was constantly preoccupied
+with his standing relative to his fellow students” (Fancher, 1979, p. 257).
+This strong preoccupation (which may have contributed to a breakdown he
+suffered at Cambridge) developed into a lifelong interest in measuring
+intellectual ability.
+Galton’s interest in intellectual differences among people stemmed in part
+from his reading of his cousin Darwin’s writings on evolution. Darwin
+believed animals (including humans) evolved through a process he called
+natural selection, by which certain inherited traits are perpetuated because
+individuals possessing those traits are more likely to survive and reproduce.
+Galton wondered whether intellectual talents could also be inherited. Galton
+noticed “intelligence,” “smartness,” or “eminence” seemed to run in
+families; that is, smart parents appeared to produce smart children. Of
+course, this could be explained in terms of either genetics or environment
+(e.g., intelligent parents may have greater resources to spend on their
+children’s education and/or greater interest or motivation to do so). Thus,
+Galton’s question of how large a role genetics plays in intelligence was
+difficult to answer. To address it, Galton put his mathematical training to
+use in analyzing data (usually family trees of “eminent” men) and, later,
+inventing statistical tests, some of which are still used today.
+Galton (1883/1907) studied a variety of cognitive abilities, in each case
+focusing on ways of measuring the ability and then noting its variation
+among different individuals. Among the abilities he studied (in both
+laboratory and “naturalistic” settings) was mental imagery. He developed a
+questionnaire instructing respondents to “think of some definite object—
+suppose it is your breakfast-table as you sat down this morning—and
+consider carefully the picture that rises before your mind’s eye” (p. 58). He
+then asked a few questions. Is the image dim or clear? Are all of the objects
+in the image well defined? Does part of the image seem to be better
+defined? Are the colors of the objects in the image distinct and natural?
+Galton was surprised to discover much variability in this capacity: Some
+respondents reported almost no imagery; others experienced images so
+vividly they could hardly tell they were images.
+Galton left a large legacy to psychology and to cognitive psychology in
+particular. His invention of tests and questionnaires to assess mental
+abilities inspired later cognitive psychologists to develop similar measures.
+His statistical analyses, later refined by other statisticians, allowed
+hypotheses to be rigorously tested. His work on mental imagery is still cited
+by current investigators. Most broadly, Galton’s work challenged
+psychologists, both those who believed genetic influences are crucially
+important and those who were strongly opposed to the idea, to think about
+the nature of mental—that is, cognitive—abilities and capacities.
+The “Cognitive Revolution” and the Birth of
+Cognitive Science
+Despite the early attempts to define and study mental life, psychology,
+especially American psychology, came to embrace the behaviorist tradition
+during the first five decades of the 1900s. A number of historical trends,
+both within and outside academia, came together in the years during and
+following World War II to produce what many psychologists think of as a
+“revolution” in the field of cognitive psychology. This cognitive
+revolution, a new series of psychological investigations, was mainly a
+rejection of the behaviorist assumption that mental events and states were
+beyond the realm of scientific study or that mental representations did not
+exist. In particular, the “revolutionaries” came to believe no complete
+explanation of a person’s functioning could exist that did not refer to the
+person’s mental representations of the world. This directly challenged the
+fundamental tenet of radical behaviorism that concepts such as mental
+representation were not needed to explain behavior.
+One of the first of these historical trends was a product of the war itself: the
+establishment of the field of human factors engineering. During the war,
+military personnel needed to be trained to operate complicated pieces of
+equipment. Engineers quickly found they needed to design equipment (such
+as instrument operating panels, radar screens, and communication devices)
+to suit the capacities of the people operating it. Lachman, Lachman, and
+Butterfield (1979) offered an anecdote about why such problems were
+important to solve:
+One type of plane often crashed while landing. It turned out that the
+lever that the pilot had to use for braking was near the lever that
+retracted the landing gear. During landing, the pilot could not take his
+eyes off the runway: He had to work by touch alone. Sometimes pilots
+retracted their landing gear instead of putting on their brakes; they
+touched the ground with the belly of the plane at top speed. The best
+way to keep them from crashing was not to exhort them to be careful;
+they were already highly motivated to avoid crashing and getting killed.
+Improving training procedures was also an inefficient approach; pilots
+with many safe landings behind them committed this error as well as
+rookie pilots.
+The most reasonable approach was to redesign the craft’s controls so
+that completely different arm movements were required for braking and
+for retracting the landing gear. (p. 57)
+Psychologists and engineers thus developed the concept of the man–
+machine system, now more accurately referred to as the person–machine
+system: the idea that machinery operated by a person must be designed to
+interact with the operator’s physical, cognitive, and motivational capacities
+and limitations.
+Psychologists during World War II also borrowed concepts, terminology,
+and analogies from communications engineering. Engineers concerned with
+the design of such things as telephones and telegraph systems talked about
+the exchange of information through various “channels” (such as telegraph
+wires and telephone lines). Different kinds of channels differ in how much
+information they can transmit per unit of time and how accurately. Humans
+were quickly seen to be a particular kind of communication channel,
+sharing properties with better-known inanimate communications channels.
+Thus, people came to be described as limited-capacity processors of
+information.
+What is a limited-capacity processor? As the name suggests, it means that
+people can do only so many things at once. When I’m typing, I find it
+difficult (actually, impossible) to simultaneously keep up my end of a
+conversation, read an editorial, or follow a television news broadcast.
+Similarly, when I concentrate on balancing my checkbook, I can’t also
+recite multiplication tables or remember all the teachers I’ve had from
+kindergarten onward. Although I can do some tasks at the same time (I can
+fold the laundry while I watch television), the number and kinds of things I
+can do at the same time are limited.
+A classic article focusing on capacity limitations was authored by George
+Miller in 1956. This article, titled “The Magical Number Seven, Plus or
+Minus Two,” observed that (a) the number of unrelated things we can
+perceive distinctly without counting, (b) the number of unrelated things on
+a list we can immediately remember, and (c) the number of stimuli we can
+make absolute discriminations among are, for most normal adults, between
+five and nine. Miller’s work exemplified how the limits of people’s
+cognitive capacities could be measured and tested.
+At about the same time, developments in the field of linguistics, the study
+of language, made clear that people routinely process enormously complex
+information. Work by linguist Noam Chomsky revolutionized the field of
+linguistics, and both linguists and psychologists began to see the central
+importance of studying how people acquire, understand, and produce
+language.
+In addition, Chomsky’s (1957, 1959, 1965) early work showed that
+behaviorism cannot adequately explain language. Consider the question of
+how language is acquired. A behaviorist might explain language acquisition
+as the result of parents’ reinforcing a child’s grammatical utterances and
+punishing (or at least not reinforcing) ungrammatical utterances. However,
+both linguists and psychologists soon realized such an account must be
+wrong. For one thing, psychologists and linguists who observed young
+children with their parents found that parents typically respond to the
+content rather than to the form of the children’s language utterances (Brown
+& Hanlon, 1970). For another, even when parents (or teachers) explicitly
+tried to correct children’s grammar, they could not. Children seemed simply
+not to “hear” the problems, as is evident in the following dialogue
+(McNeill, 1966, p. 69):
+Child: Nobody don’t like me.
+Mother: No, say, “Nobody likes me.” [eight repetitions of this dialogue]
+Mother: No, now listen carefully; say, “Nobody likes me.”
+Child: Oh! Nobody don’t likes me.
+(Clearly, this mother was more focused on the child’s linguistic
+development than emotional development!)
+Chomsky’s work thus posed a fundamental challenge to psychologists: Here
+were humans, already shown to be limited-capacity processors, quickly
+acquiring what seemed to be an enormously complicated body of
+knowledge—language—and using it easily. How could this be?
+Reversing engineers’ arguments that machines must be designed to fit
+people’s capabilities, many linguists tried to describe structures complex
+enough to process language. Chomsky (1957, 1965) argued that underlying
+people’s language abilities is an implicit system of rules, collectively known
+as a generative grammar. These rules allow speakers to construct, and
+listeners to understand, sentences that are “legal” in the language. For
+example, “Did you eat all the oat bran cereal?” is a legal, well-formed
+sentence, but “Bran the did all oat eat you cereal?” is not. Our generative
+grammar, a mentally represented system of rules, tells us so because it can
+produce (generate) the first sentence but not the second.
+Chomsky (1957, 1965) did not believe all the rules of a language are
+consciously accessible to speakers of that language. Instead, he believed the
+rules operate implicitly: We don’t necessarily know exactly what all the
+rules are, but we use them rather easily to produce understandable sentences
+and to avoid producing gobbledygook.
+Another strand of the cognitive revolution came from developments in
+neuroscience, the study of the brain-based underpinnings of psychological
+and behavioral functions. A major debate in the neuroscience community
+had been going on for centuries, all the way back to Descartes, over the
+issue of localization of function. To say a function is “localized” in a
+particular region is, roughly, to claim that the neural structures supporting
+that function reside in a specific brain area. In a major work published in
+1929, a very influential neuroscientist, Karl Lashley, claimed there was no
+reason to believe that major functions (such as language and memory) are
+localized (H. Gardner, 1985).
+However, research during the late 1940s and 1950s accumulated to
+challenge that view. Work by Donald Hebb (1949) suggested that some
+kinds of functions, such as visual perceptions, were constructed over time
+by the building of cell assemblies—connections of sets of cells in the brain.
+During the 1950s and 1960s, Nobel Prize–winning neurophysiologists
+David Hubel and Torsten Wiesel discovered that specific cells in the visual
+cortex of cats were in fact specialized to respond to specific kinds of stimuli
+(such as orientation of lines and particular shapes). Equally important,
+Hubel and Wiesel (1959) demonstrated the importance of early experience
+on nervous system development. Kittens that were experimentally restricted
+to an environment with only horizontal lines would fail to develop the
+ability to perceive vertical lines. This work suggested that at least some
+functions are localized in the brain (H. Gardner, 1985).
+There is yet one more thread to the cognitive revolution, also dating from
+about World War II: the development of computers and artificially
+intelligent systems. In 1936, a mathematician named Alan Turing wrote an
+article describing “universal machines,” mathematical entities that are
+simple in nature but capable in principle of solving logical or mathematical
+problems. This article ultimately led to what some psychologists and
+computer scientists call the computer metaphor: the comparison of
+people’s cognitive activities to an operating computer. Just as computers
+need to be fed data, people need to acquire information.
+Both computers and people often store information and therefore must have
+structures and processes that allow such storage. People and computers
+often need to recode information—that is, to change the way it is recorded
+or presented. People and computers must also manipulate information in
+other ways—transform it, for example, by rearranging it, adding to or
+subtracting from it, deducing from it, and so on. Computer scientists
+working on the problem of artificial intelligence study how to program
+computers to solve the same kinds of problems humans can and to try to
+determine whether computers can use the same methods that people
+apparently use to solve such problems.
+During the 1970s, researchers in different fields started to notice they were
+investigating common questions: the nature of mind and of cognition; how
+information is acquired, processed, stored, and transmitted; and how
+knowledge is represented. Scholars from fields such as cognitive
+psychology, computer science, philosophy, linguistics, neuroscience, and
+anthropology, recognizing their mutual interests, came together to found an
+interdisciplinary field known as cognitive science. H. Gardner (1985) even
+gave this field a birth date—September 11, 1956—when several founders of
+the field attended a symposium on information theory at the Massachusetts
+Institute of Technology.
+H. Gardner (1985) pointed out that the field of cognitive science rests on
+certain common assumptions. Most important among these is the
+assumption that cognition must be analyzed at what is called the level of
+representation. This means cognitive scientists agree that cognitive theories
+incorporate such constructs as symbols, rules, images, and ideas—in
+Gardner’s words, “the stuff . . . found between input and output” (p. 38).
+Thus, cognitive scientists focus on representations of information rather
+than on how nerve cells in the brain work or on historical or cultural
+influences.
+General Points
+Each school of psychology described so far has left a visible legacy to
+modern cognitive psychology. Structuralists asked the question, what are
+the elementary units and processes of the mind? Functionalists reminded
+psychologists to focus on the larger purposes and contexts that cognitive
+processes serve. Behaviorists challenged psychologists to develop testable
+hypotheses and to avoid unresolvable debates. Gestalt psychologists pointed
+out that an understanding of individual units would not automatically lead
+to an understanding of whole processes and systems. Galton demonstrated
+that individuals can differ in their cognitive processing. Developments in
+engineering, computer science, linguistics, and neuroscience have
+uncovered processes by which information can be efficiently represented,
+stored, and transformed, providing analogies and metaphors for cognitive
+psychologists to use in constructing and testing models of cognition. As we
+take up particular topics, we will see more of how cognitive psychology’s
+different roots have shaped the field.
+Keep in mind that cognitive psychology shares in the discoveries made in
+other fields, just as other fields share in the discoveries made by cognitive
+psychology. This sharing and borrowing of research methods, terminology,
+and analyses gives many investigators a sense of common purpose. It also
+all but requires cognitive psychologists to keep abreast of new
+developments in fields related to cognition.
+Research Methods in Cognitive Psychology
+Throughout this book, we will review different empirical studies of
+cognition. Before we plunge into those studies, however, we will look at
+some of the different kinds of studies that cognitive psychologists conduct.
+The following descriptions do not exhaust all the studies a cognitive
+psychologist could conduct but should acquaint you with the major
+methodological approaches to cognitive psychology.
+Experiments and Quasi-Experiments
+The most frequently adopted approach to cognitive investigations is the
+psychological experiment. A true experiment is one in which the
+experimenter manipulates one or more independent variables (the
+experimental conditions) and observes how the recorded measures
+(dependent variables) change as a result. A major distinction between
+experiments and observational methods (which we will examine in just a
+bit) is the investigator’s degree of experimental control. Having
+experimental control means the experimenter can assign participants to
+different experimental conditions so as to minimize preexisting differences
+between them. Ideally, the experimenter can control all variables that might
+affect the performance of research participants other than the variables on
+which the study is focusing.
+For example, an experiment in cognitive psychology might proceed as
+follows. An experimenter recruits a number of people for a study of
+memory, randomly assigns them to one of two groups, and presents each
+group with exactly the same stimuli, using exactly the same procedures and
+settings and varying only the instructions (the independent variable) for the
+two groups of participants. The experimenter then observes the overall
+performance of the participants on a later memory test (the dependent
+variable).
+This example illustrates a between-subjects design, where different
+experimental participants are assigned to different experimental conditions
+and the researcher looks for differences in performance between the two
+groups. In contrast, a within-subjects design exposes the same
+experimental participants to more than one condition. For example,
+participants might perform several memory tasks but receive a different set
+of instructions for each task. The investigator then compares the
+performance of the participants in the first condition with the performance
+of the same participants in another condition.
+Some independent variables preclude random assignment (i.e., having the
+experimenter assign a research participant to a particular condition in an
+experiment). For example, experimenters cannot reassign participants to a
+different gender, ethnicity, age, or educational background. Studies that
+appear in other ways to be experiments but that have one or more of these
+factors as independent variables (or fail to be true experiments in other
+ways) are called quasi-experiments (D. T. Campbell & Stanley, 1963).
+Scientists value experiments and quasi-experiments because they enable
+researchers to isolate causal factors and make better-supported claims about
+causality than is possible using observational methods alone. However,
+many experiments fail to fully capture real-world phenomena in the
+experimental task or research design. The laboratory setting or the
+artificiality or formality of the task may prevent research participants from
+behaving normally, for example. Furthermore, the kinds of tasks amenable
+to experimental study might not be those most important or most common
+in everyday life. As a result, experimenters sometimes risk studying
+phenomena that relate only weakly to people’s real-world experience.
+Naturalistic Observation
+As the name suggests, naturalistic observation consists of an observer
+watching people in familiar everyday contexts going about their cognitive
+business. For example, an investigator might watch as people try to figure
+out how to work a new smartphone. Ideally, the observer remains as
+unobtrusive as possible so as to disrupt or alter the behaviors being
+observed as little as possible. In this example, the investigator might stand
+nearby and surreptitiously note what people who use the smartphone do and
+say. Being unobtrusive is much harder than it might sound. The observer
+needs to make sure the people being observed are comfortable and do not
+feel as though they are “under a microscope.” At the same time, the
+observer wants to avoid causing the people being observed to “perform” for
+the observer. In any case, the observer can hardly fully assess his or her
+own effects on the observation. After all, how can one know what people
+would have done had they not been observed?
+Photo 1.2: Recording people engaged in everyday behaviors in typical
+settings uses the naturalistic observation method of investigation.
+Photo by Kathleen Galotti
+Observational studies have the advantage that the things studied occur in
+the real world and not just in an experimental laboratory. Psychologists call
+this property ecological validity. Furthermore, the observer has a chance to
+see just how cognitive processes work in natural settings: how flexible they
+are, how they are affected by environmental changes, and how rich and
+complex actual behavior is. Naturalistic observation is relatively easy to do,
+doesn’t typically require a lot of resources to carry out, and doesn’t require
+other people to formally volunteer for study.
+The disadvantage of naturalistic observation is a lack of experimental
+control. The observer has no means of isolating the causes of different
+behaviors or reactions. All the observer can do is collect observations and
+try to infer relationships among them. However plausible different
+hypotheses may seem, the observer has no way to verify them. Some
+psychologists believe that naturalistic observation is most appropriately
+used to identify problems, issues, or phenomena of interest to then be
+investigated with other research methods.
+A second problem, which all scientists face, is that an observer’s recordings
+are only as good as her or his initial plan for what is important to record.
+The settings and people the observer chooses to observe, the behaviors and
+reactions she or he chooses to record, the manner of recording, and the
+duration and frequency of observation all influence the results and
+conclusions the observer can later draw. Moreover, whatever biases the
+observer brings to the study (and, as we will see in Chapter 12, all of us are
+subject to a large number of biases) limit and possibly distort the recordings
+made.
+Controlled Observation and Clinical Interviews
+As the term controlled observation suggests, this method gives researchers
+some degree of influence over the setting in which observations are
+conducted. Investigators using this research method try to standardize the
+setting for all participants, in many cases manipulating specific conditions
+to see how participants will be affected. In the smartphone example, for
+instance, the investigator might arrange for the smartphone to display
+different instructions to different people. The study would still be
+observational (because the researcher would not control who used the
+machine or when), but the researcher would be trying to channel the
+observed behavior in certain ways.
+In clinical interviews, the investigator tries to channel the process even
+more. The investigator begins by asking each participant a series of openended questions. The interviewer might ask the participant to think about a
+problem and describe his or her approaches to it. With the clinical interview
+method, however, instead of allowing the participant to respond freely, the
+interviewer follows up with another set of questions. Depending on the
+participant’s responses, the interviewer may pursue one or another of many
+possible lines of questioning, trying to follow the participant’s own thinking
+and experience while focusing on specific issues or questions.
+Introspection
+We have already seen one special kind of observation dating back to the
+laboratory of Wundt. In the technique of introspection, the observer
+observes his or her own mental processes. For example, participants might
+be asked to solve complicated arithmetic problems without paper or pencil
+and to “think aloud” as they do so.
+Introspection has all the benefits and drawbacks of other observational
+studies plus a few more. One additional benefit is that observing one’s own
+reactions and behavior may give one better insight into an experience and
+the factors that influenced it, thereby yielding a richer, more complete
+picture than an outsider could observe. But observing yourself is a doubleedged sword. Although perhaps a better observer in some ways than an
+outsider, you may also be more biased in regard to your own cognition.
+People observing their own mental processes may be more concerned with
+their level of performance and may be motivated to subtly and
+unconsciously distort their observations. They may try to make their mental
+processes appear more organized, logical, thorough, and so forth than they
+actually are, and they may be unwilling to admit when their cognitive
+processes seem flawed or random. Moreover, with some cognitive tasks
+(especially demanding ones), observers may have few resources left with
+which to observe and record while they work on the task.
+Investigations of Neural Underpinnings
+Much work in cognitive neuroscience involves examining people’s brains.
+Before the second half of the 20th century, this kind of examination could
+be conducted only during an autopsy after a patient died. However, since
+the 1970s, various techniques of brain imaging, the construction of
+pictures of the anatomy and functioning of intact brains, have been
+developed. We will discuss many of these techniques in Chapter 2.
+General Points
+This brief outline of different research designs barely scratches the surface
+of all the important things we could look at. There are a few general points
+to note, however. First, cognitive psychologists use a variety of approaches
+to study cognitive phenomena. In part, these approaches reflect
+philosophical differences among psychologists over what is important to
+study and how trade-offs should be made between certain drawbacks and
+benefits. In part, they reflect the intellectual framework or paradigms
+(examples to be discussed very shortly) within which researchers work.
+They may also reflect how amenable different areas of cognition are to
+different research approaches.
+Second, no research design is perfect. Each has certain potential benefits
+and limitations that researchers must weigh in designing studies. Students,
+professors, and other researchers must also carefully think, both critically
+and appreciatively, about how the research design answers the research
+question posed. I hope you’ll keep these thoughts in mind as you discover
+in the rest of this book examples of the wide variety of research studies that
+cognitive psychologists have carried out.
+Paradigms of Cognitive Psychology
+Having looked at cognitive psychology’s historical roots and research
+methods, we can now focus on modern cognitive psychology. In this
+section, we will examine the four major paradigms that cognitive
+psychologists use in planning and executing their research.
+First of all, what is a paradigm? The word has several related meanings,
+but you can think of it as a body of knowledge structured according to what
+its proponents consider important and what they do not. Paradigms include
+the assumptions investigators make in studying a phenomenon. Paradigms
+also specify what kinds of experimental methods and measures are
+appropriate for an investigation. Thus, paradigms are intellectual
+frameworks that guide investigators in studying and understanding
+phenomena.
+In learning about each paradigm, ask yourself the following questions.
+What assumptions underlie the paradigm? What questions or issues does the
+paradigm emphasize? What analogies (such as the analogy between the
+computer and the mind) does the paradigm use? What research methods and
+measures does the paradigm favor?
+The Information-Processing Approach
+The information-processing approach dominated cognitive psychology
+during the 1960s and 1970s and remains influential today (Atkinson &
+Shiffrin, 1968). As its name implies, the information-processing approach
+draws an analogy between human cognition and computerized processing
+of information. Central to the information-processing approach is the idea
+that cognition can be thought of as information (what we see, hear, read
+about, and think about) passing through a system (us or, more specifically,
+our minds).
+Researchers following an information-processing approach often assume
+that information is processed (received, stored, recoded, transformed,
+retrieved, and transmitted) in stages and that it is stored in specific places
+while being processed. One goal within this framework, then, is to
+determine what these stages and storage places are and how they work.
+Other assumptions underlie the information-processing approach as well.
+One is that people’s cognitive abilities can be thought of as “systems” of
+interrelated capacities. We know different individuals have different
+cognitive capacities—different attention spans, memory capacities, and
+language skills, to name a few. Information-processing theorists try to find
+the relationships between these capacities to explain how individuals go
+about performing specific cognitive tasks.
+In accordance with the computer metaphor, information-processing
+theorists assume that people, like computers, are general-purpose symbol
+manipulators. In other words, people, like computers, can perform
+astonishing cognitive feats by applying only a few mental operations to
+symbols (such as letters, numbers, propositions, and scenes). Information is
+then stored symbolically, and the way it is coded and stored greatly affects
+how easy it is to use it later (as when we want to recall information or
+manipulate it in some way).
+A general-purpose information-processing system is shown in Figure 1.2.
+Note the various memory stores where information is held for possible later
+use and the different processes that operate on the information at different
+points or that transfer it from store to store. Certain processes, such as
+detection and recognition, are used at the beginning of information
+processing; others, such as recoding and retrieval, have to do with memory
+storage; still others, such as reasoning and concept formation, have to do
+with putting information together in new ways. In this model, boxes
+represent stores and arrows represent processes (leading some to refer to
+information-processing models as “boxes-and-arrows” models of
+cognition). Altogether, information-processing models are depicted best by
+something computer scientists call flowcharts, which illustrate the
+sequential flow of information through a system.
+Figure 1.2: A typical information-processing model.
+Detection occurs in the Visual sensory register. Incoming information is fed to auditory
+sensory register and olfactory sensory register. Recognition from the visual sensory
+register is stored in short-term memory, as are inputs from the auditory and olfactory
+registers. On rehearsal, it is stored in the long-term memory. Categorization, recording,
+reorganization, and manipulation of information occur in the long-term memory. Longterm memory provides the response output.
+The information-processing tradition is rooted in structuralism in that its
+followers attempt to identify the basic capacities and processes we use in
+cognition. The computer metaphor used in this approach also shows
+indebtedness to the fields of engineering and communications.
+Psychologists working in the information-processing tradition are interested
+in relating individual and developmental differences to differences in basic
+capacities and processes. Typically, information-processing psychologists
+use experimental and quasi-experimental techniques in their investigations.
+The Connectionist Approach
+Early in the 1980s, researchers from a variety of disciplines began to
+explore alternatives to the information-processing approach that could
+explain cognition. The framework they established is known as
+connectionism (sometimes also called parallel-distributed processing, or
+PDP). Its name is derived from models depicting cognition as a network of
+connections among simple (and usually numerous) processing units
+(McClelland, 1988). Because these units are sometimes compared to
+neurons, the cells that transmit electrical impulses and underlie all sensation
+and muscle movement, connectionist models are sometimes called neural
+networks (technically speaking, there are distinctions between
+connectionist and neural network models, but we will not review them
+here).
+Each unit is connected to other units in a large network. Each unit has some
+level of activation at any particular moment in time. The exact level of
+activation depends on the input to that unit from both the environment and
+the other units to which it is connected. Connections between two units
+have weights, which can be positive or negative. A positively weighted
+connection causes one unit to excite, or raise the level of activation of, units
+to which it is connected; a negatively weighted connection has the opposite
+effect, inhibiting or lowering the activation of connected units.
+Figure 1.3 depicts a (very partial) connectionist representation of the dogs
+that showed up to my training class the other night. To reduce complexity, it
+shows only positively weighted connections. To “unpack” this figure, look
+at the node in the center circle labeled “A.” This node doesn’t have
+particular meaning by itself, just as, for example, any individual neuron in
+your body doesn’t have any one particular function. But if node A were to
+become activated, that activation would spread to all the other nodes with
+which it is connected—the “Kathie” node in the “Owner” group, the
+“Nimo” node in the “Name” group, the “Bernese Mountain Dog” node in
+the “Breed” group, the “Dog” node in the “Sex” group, and the “Chicken”
+node in the “Favorite Treat Flavor” group of nodes. The “representation” of
+Nimo in this network is the simultaneous activation of these nodes.
+One major difference between the information-processing and connectionist
+approaches is the manner in which cognitive processes are assumed to
+occur. In information-processing models, cognition is typically assumed to
+occur serially—that is, in discrete stages (first one process occurs, which
+feeds information into the next process, which feeds information into the
+next process, etc.). In contrast, most (but not all) connectionist models
+assume that cognitive processes occur in parallel, many at the same time.
+The connectionist framework allows for a wide variety of models, which
+can vary in the number of units hypothesized, number and pattern of
+connections among units, and connection of units to the environment. All
+connectionist models share the assumption, however, that there is no need
+to hypothesize a central processor that directs the flow of information from
+one process or storage area to another. Instead, different patterns of
+activation account for the various cognitive processes (Dawson, 1998).
+Knowledge is not stored in various storehouses (such as the boxes depicted
+in Figure 1.2) but rather is stored within connections between units.
+Learning occurs when new connective patterns are established that change
+the weights of connections between units.
+Figure 1.3: A depiction of a connectionist model.
+The model lists the following five nodes and their corresponding relationships:
+A: Nimo is a male Bernese Mountain Dog owned by Kathie. Nimo's favorite treat
+flavor is chicken.
+B: Tryker is a male Cavalier King Charles Spaniel owned by Kathie. Tryker's
+favorite treat flavor is chicken.
+C: Hydro is a male Golden Retriever owned by Lois. Hydro's favorite treat flavor is
+Liver.
+D: Layla is a female English Cocker Spaniel owned by Sue. Layla's favorite treat
+flavor is Salmon.
+E: Jasmine is a female Airedale Terrier owned by Anita. Jasmine's favorite treat
+flavor is Liver.
+Feldman and Ballard (1982), in an early description of connectionism,
+argued that this approach is more consistent with the way the brain
+functions than an information-processing approach. The brain, they argued,
+is made up of many neurons connected to one another in various complex
+ways. The authors asserted that
+the fundamental premise of connectionism is that individual neurons do
+not transmit large amounts of symbolic information. Instead they
+compute by being appropriately connected to large numbers of similar
+units. This is in sharp contrast to the conventional computer model of
+intelligence prevalent in computer science and cognitive psychology. (p.
+208)
+Rumelhart (1989) put the issue more simply: “Connectionism seeks to
+replace the computer metaphor of the information-processing framework
+with a brain metaphor” (p. 134).
+Like the information-processing approach, connectionism draws from
+structuralism an interest in the elements of cognitive functioning. However,
+whereas information processors look to computer science, connectionists
+look to cognitive neuropsychology (the study of people with damaged or
+otherwise unusual brain structures) and cognitive neuroscience for
+information to help them construct their theories and models. Informationprocessing accounts of cognition try to provide explanations at a more
+abstract symbolic level than do connectionist accounts. Connectionist
+models are more concerned with the “subsymbolic” level: how cognitive
+processes actually could be carried out by a brain. Connectionism, being
+much newer than information processing, is just beginning to map out
+explanations for individual and developmental differences. Most
+connectionist work seeks to replicate the findings of experimental and
+quasi-experimental research using computer programs based on a neural
+network model.
+The Evolutionary Approach
+Some of our most remarkable cognitive abilities and achievements are ones
+we typically take for granted. Two that come immediately to mind are the
+ability to perceive three-dimensional objects correctly and the ability to
+understand and produce language. These abilities may seem rather trivial
+and mundane—after all, a 3-year-old can do quite a bit of both. However,
+researchers in the field of artificial intelligence quickly found that it is not
+easy to program computers to carry out even rudimentary versions of these
+tasks (Winston, 1992).
+So why can young children do these tasks? In fact, how can a wide range of
+people, even people who don’t seem particularly gifted intellectually, carry
+them out with seemingly little effort? Some psychologists search for an
+answer in evolutionary theory (Cosmides & Tooby, 2002; Richerson &
+Boyd, 2000). The argument goes something like this. Like other animal
+minds, the human mind is a biological system, one that has evolved over
+generations. Like other animal minds, it too is subject to the laws of natural
+selection. Therefore, the human mind has responded to evolutionary
+pressures to adapt in certain ways rather than others in response to the
+environments encountered by our predecessors. Evolutionary psychologist
+Leda Cosmides (1989) noted that the environments our ancestors
+experienced were not simply physical but ecological and social as well.
+The idea here is that humans have specialized areas of competence
+produced by our evolutionary heritage. Cosmides and Tooby (2002) argued
+that people have “a large and heterogeneous set of evolved, reliably
+developing, dedicated problem-solving programs, each of which is
+specialized to solve a particular domain or class of adaptive problems (e.g.,
+grammar acquisition, mate acquisition, food aversion, way-finding)” (p.
+147). In other words, people have special-purpose mechanisms (including
+cognitive mechanisms) specific to a certain context or class of problems.
+Cosmides and Tooby (2000, 2002) believed that some of the most
+significant issues our ancestors faced involved social issues such as creating
+and enforcing social contracts. To do this, people must be especially good at
+reasoning about costs and benefits, and they must be able to detect cheating
+in a social exchange. Therefore, evolutionary psychologists predict that
+people’s reasoning will be especially enhanced when they are reasoning
+about cheating, a topic we will examine in much greater detail in Chapter
+12.
+In general, evolutionary psychologists believe we understand a system best
+if we understand the evolutionary pressures on our ancestors. Explaining
+how a system of reasoning works, they believe, is much easier if we
+understand how evolutionary forces shaped the system in certain directions
+rather than other, equally plausible ones.
+The Ecological Approach and Embodied
+Cognition
+A fourth major approach to the study of cognition comes from philosophers,
+psychologists, and anthropologists and overlaps much more with the
+evolutionary approach than it does with either the information-processing or
+connectionist approach. The central tenet of this approach is that cognition
+does not occur in isolation from larger cultural contexts; all cognitive
+activities are shaped by the culture and context in which they occur.
+Jean Lave, a current theorist in this tradition, has conducted some
+fascinating work that illustrates the ecological approach. Lave (1988)
+described the results of the Adult Math Project as “an observational and
+experimental investigation of everyday arithmetic practices” (p. 1). Lave,
+Murtaugh, and de la Rocha (1984) studied how people used arithmetic in
+their everyday lives. In one study, they followed people on groceryshopping trips to analyze how and when people calculate “best buys.” They
+found that people’s methods of calculation varied with the context. This was
+somewhat surprising because students in our culture are taught to use the
+same specified formulas on all problems of a given type to yield one
+definite numerical answer. To illustrate, compare a typical third-grade
+arithmetic problem presented by teachers to students—“Brandi had eight
+seashells. Nikki had five more. How many seashells did the two of them
+have together?”—with the following problem, posed and solved by one of
+the grocery shoppers, regarding the number of apples she should purchase
+for her family for the week:
+There’s only about three or four [apples] at home, and I have four kids,
+so you figure at least two apiece in the next three days. These are the
+kinds of things I have to resupply. I only have a certain amount of
+storage space in the refrigerator, so I can’t load it up totally. . . . Now
+that I’m home in the summertime, this is a good snack food. And I like
+an apple sometimes at lunchtime when I come home. (Murtaugh, 1985,
+p. 188)
+Lave (1988) pointed out a number of contrasts between this arithmetic
+problem solving and the kind used in solving school problems. First, the
+second example has many possible answers (e.g., 5, 6, 9), unlike the first
+problem, which has one (13). Second, the first problem is given to the
+problem solver to solve; the second is constructed by the problem solver
+herself. Third, the first problem is somewhat disconnected from personal
+experience, goals, and interests, whereas the second comes out of practical
+daily living.
+Photo 1.3: Research in the ecological tradition uses everyday settings, such
+as a grocery store expedition, to study cognitive processing.
+Photo by Kathleen Galotti
+Although there has been much recent interest in the ecological approach,
+the idea of studying cognition in everyday contexts actually arose several
+years earlier. A major proponent of this viewpoint was J. J. Gibson, whose
+work on perception will be discussed at length in Chapter 3. Ulric Neisser, a
+friend and colleague of Gibson, wrote a book in 1976 aimed at redirecting
+the field of psychology toward studying more “realistic” cognitive
+phenomena.
+We can see the influences of both the functionalist and Gestalt schools on
+the ecological approach. The functionalists focus on the purposes served by
+cognitive processes, certainly an ecological question. Gestalt psychology’s
+emphasis on the context surrounding any experience is likewise compatible
+with the ecological approach. The ecological approach would deny the
+usefulness (and perhaps even the possibility) of studying cognitive
+phenomena in artificial circumstances divorced from larger contexts. Thus,
+this tradition relies less on laboratory experiments or computer simulations
+and more on naturalistic observation and field studies to explore cognition.
+A current viewpoint in cognitive science is one known generally as the
+embodied cognition view (Chemero, 2011; Wilson, 2002), and it can be
+seen as a particular version of the ecological paradigm. As Wilson (2002)
+put it, “Proponents of embodied cognition take as their theoretical starting
+point not a mind working on abstract problems, but a body that requires a
+mind to make it function” (p. 625). That is, the way cognition works is held
+to be inextricably linked to the fact that minds are typically encased in
+bodies, and those bodies influence how we perceive, navigate, and behave.
+Those processes of perceiving, navigating, and behaving are not simply
+ancillary processes to the pure cognitive ones (such as thinking and
+deducing) but instead are important components that define the way we do
+cognition. Wilson explained further,
+There is a growing commitment to the idea that the mind must be
+understood in the context of its relationship to a physical body that
+interacts with the world. It is argued that we have evolved from
+creatures whose neural resources were devoted primarily to perceptual
+and motoric processing, and whose cognitive activity consisted largely
+of immediate, on-line interaction with the environment. (p. 625)
+Indeed, a school of radical embodied cognitive science (Chemero, 2011)
+holds that theories of cognition do not need to posit the existence of mental
+representations at all. We will come back to the topic of embodied cognition
