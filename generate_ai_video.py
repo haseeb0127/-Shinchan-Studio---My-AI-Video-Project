@@ -5,6 +5,7 @@ from gtts import gTTS
 from PIL import Image, ImageDraw, ImageFont
 import os
 import random
+import glob
 
 # Page Config
 st.set_page_config(page_title="Asif's Bollywood AI Studio", page_icon="🎬")
@@ -41,11 +42,12 @@ def create_subtitle_image(text, duration, lang):
     img.save("temp_sub.png")
     return ImageClip("temp_sub.png").with_duration(duration).with_position(("center", "bottom"))
 
-# Helper function to find files safely
-def find_file(possible_names):
-    for name in possible_names:
-        if os.path.exists(name):
-            return name
+# NEW: Super Searcher Function
+def find_any_file(pattern):
+    # This looks in ALL folders for any file matching the pattern
+    files = glob.glob(f"**/{pattern}", recursive=True)
+    if files:
+        return files[0]
     return None
 
 # 3. Generate Button
@@ -61,45 +63,11 @@ if st.button("🚀 Generate AI Video"):
 
             st.write("🎵 Mixing Background Music...")
             if music_choice != "No Music":
-                bg_music_file = f"music/{music_choice.lower().replace(' ', '_')}.mp3"
-                if os.path.exists(bg_music_file):
+                bg_music_file = find_any_file(f"{music_choice.lower().replace(' ', '_')}.mp3")
+                if bg_music_file:
                     bg_music = AudioFileClip(bg_music_file).with_duration(voice.duration).with_volume_scaled(0.15)
                     voice = CompositeAudioClip([voice, bg_music])
 
             st.write("🖼️ Selecting Random Background...")
-            bg_folder = "backgrounds" 
-            all_bgs = [f for f in os.listdir(bg_folder) if f.lower().endswith(('.png', '.jpg'))]
-            bg_path = os.path.join(bg_folder, random.choice(all_bgs))
-            bg = ImageClip(bg_path).with_duration(voice.duration).resized(width=1280)
-
-            st.write("🚶 Animating Character...")
-            if char_choice == "Shinchan":
-                c_name = find_file(["character_closed (2).png", "character_closed(2).png", "character_closed.png"])
-                o_name = find_file(["character_open (2).png", "character_open(2).png", "character_open.png"])
-            else:
-                c_name = find_file(["character2_closed (2).png", "character2_closed(2).png", "character2_closed.png"])
-                o_name = find_file(["character2_open (2).png", "character2_open(2).png", "character2_open.png"])
-
-            if not c_name or not o_name:
-                raise FileNotFoundError(f"Could not find character images for {char_choice} on GitHub.")
-
-            c = ImageClip(c_name).with_duration(0.15).resized(width=400)
-            o = ImageClip(o_name).with_duration(0.15).resized(width=400)
-                
-            actor = concatenate_videoclips([c, o] * int(voice.duration/0.3 + 1)).with_duration(voice.duration).with_position((440, 320))
-
-            st.write("📝 Adding Subtitles...")
-            subs = create_subtitle_image(script_text, voice.duration, lang_choice)
-
-            st.write("🎥 Final Render...")
-            final = CompositeVideoClip([bg, actor, subs], size=(1280, 720)).with_audio(voice)
-            final.write_videofile("studio_result.mp4", fps=24, preset="ultrafast", logger=None)
-            
-            status.update(label="✅ Video Ready!", state="complete", expanded=False)
-
-        st.video("studio_result.mp4")
-        with open("studio_result.mp4", "rb") as file:
-            st.download_button("📥 Download Video", data=file, file_name="ai_cartoon.mp4", mime="video/mp4")
-
-    except Exception as e:
-        st.error(f"Something went wrong: {e}")
+            # Look for backgrounds in any folder
+            bg_files = glob.glob("**/backgrounds/*.
