@@ -1,40 +1,70 @@
-import streamlit as st
-from moviepy.editor import ImageClip, AudioFileClip, CompositeVideoClip, concatenate_videoclips, ColorClip, VideoFileClip
-import moviepy.video.fx.all as vfx
-from gtts import gTTS
-import os, random, glob, time
+import google.generativeai as genai
+import json
 
-st.set_page_config(page_title="AI Studio", layout="wide")
-st.title("🎬 Asif's Animated Scene Engine")
-st.markdown("Now supporting True Transparent GIFs for fluid character animation!")
-
-with st.sidebar:
-    st.header("Settings")
-    lang = st.selectbox("Language", ["English", "Hindi", "Telugu", "Hinglish"])
-    mus = st.selectbox("Music", ["No Music", "Bollywood Drama", "Hollywood Epic"])
-
-def_script = "Hello dosto. Welcome to class. Aaj hum memory seekhenge. Brain is like a computer."
-script = st.text_area("Script (Use periods '.' for new scenes):", def_script, height=100)
-
-def find(pattern):
-    f = glob.glob(f"**/{pattern}", recursive=True)
-    return f[0] if f else None
+# 1. Initialize the Brain
+genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
+model = genai.GenerativeModel('gemini-1.5-flash')
 
 if st.button("🚀 Generate Animated Video"):
     try:
-        with st.status("🎬 Processing Animation...", expanded=True) as status:
-            l_map = {"English":"en","Hindi":"hi","Telugu":"te","Hinglish":"hi"}
-            sentences = [s.strip() for s in script.split('.') if len(s.strip()) > 3]
-            clips = []
+        with st.status("🧠 AI Director is analyzing your script...", expanded=True) as status:
+            # 2. The Prompt (Instructions for the AI)
+            prompt = f"""
+            Break this script into logical scenes for an educational video.
+            Script: {script}
             
-            for i, txt in enumerate(sentences):
-                st.write(f"⚙️ Rendering Scene {i + 1}...")
-                ok = False
-                for att in range(3):
-                    try:
-                        tts = gTTS(text=txt, lang=l_map[lang])
-                        tmp = f"t_{i}.mp3"
-                        tts.save(tmp)
-                        ok = True
-                        break
-                    except Exception as e:
+            Return ONLY a JSON list like this:
+            [
+              {{"text": "dialogue here", "char": "character1", "bg_search": "classroom"}},
+              {{"text": "next dialogue", "char": "character2", "bg_search": "office"}}
+            ]
+            """
+            
+            # 3. Get AI Response
+            response = model.generate_content(prompt)
+            # Clean the response text to ensure it's valid JSON
+            clean_json = response.text.replace("```json", "").replace("```", "").strip()
+            scenes = json.loads(clean_json)
+            
+            st.write(f"🎬 Director planned {len(scenes)} scenes.")
+            
+            clips = []
+            for i, scene in enumerate(scenes):
+                st.write(f"⚙️ Rendering Scene {i+1}: {scene['char']} in {scene['bg_search']}")
+                
+                # --- AUDIO GENERATION ---
+                tts = gTTS(text=scene['text'], lang=l_map[lang])
+                tmp_audio = f"scene_{i}.mp3"
+                tts.save(tmp_audio)
+                audio_clip = AudioFileClip(tmp_audio)
+                
+                # --- BACKGROUND PICKER ---
+                # Search for a background that matches the AI's suggestion
+                bg_files = glob.glob("**/backgrounds/*.*", recursive=True)
+                bg_match = [f for f in bg_files if scene['bg_search'].lower() in f.lower()]
+                selected_bg = random.choice(bg_match if bg_match else bg_files)
+                
+                bg_clip = ImageClip(selected_bg).set_duration(audio_clip.duration).resize(width=1280)
+
+                # --- CHARACTER PICKER ---
+                gif_path = find(f"{scene['char']}*.gif")
+                if gif_path:
+                    char_clip = (VideoFileClip(gif_path, has_mask=True)
+                                 .resize(height=450)
+                                 .fx(vfx.loop, duration=audio_clip.duration)
+                                 .set_position(("center","bottom")))
+                    final_scene = CompositeVideoClip([bg_clip, char_clip], size=(1280, 720)).set_audio(audio_clip)
+                else:
+                    final_scene = bg_clip.set_audio(audio_clip)
+                
+                clips.append(final_scene)
+
+            # 4. Final Assembly
+            video = concatenate_videoclips(clips)
+            video.write_videofile("out.mp4", fps=24, preset="ultrafast", logger=None)
+            status.update(label="✅ Video Produced!", state="complete")
+
+        st.video("out.mp4")
+        
+    except Exception as e:
+        st.error(f"Founder, we have a glitch: {e}")
